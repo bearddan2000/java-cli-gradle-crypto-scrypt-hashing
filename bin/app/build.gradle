@@ -1,0 +1,12 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  implementation 'org.bouncycastle:bcprov-jdk15on:1.60'
+}
+
+mainClassName = 'example.Main'
